@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+</head>
+<body>
+    <h1>Student Login</h1>
+
+    <form action="login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <hr>
+    <h2>Student Information Form</h2>
+
+    <form action="student" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="course">Course:</label>
+        <input type="text" id="course" name="course" required>
+        <br><br>
+
+        <button type="submit">Submit Student Details</button>
+    </form>
+
+    <p><a href="hello">Open Hello Servlet</a></p>
+</body>
+</html>
